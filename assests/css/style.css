@@ -14,6 +14,8 @@ body {
     color: #3a3a3a;
 }
 
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
 /* Header */
@@ -26,6 +28,7 @@ main {
     background-color: lightblue;
     /* make main element surplus space to push the footer down */
     flex: 1 0 auto;
+    font-family: 'Lato', sans-serif;
 }
 
 /* footer */
