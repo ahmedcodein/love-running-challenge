@@ -94,10 +94,19 @@ main {
     }
 
 /* footer */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+#social-networks i {
+    color:#3a3a3a;
+    font-size: 160%;
+    padding: 5%
+}
 /* media queries for tablets and larger (786px and up) */
 
 @media screen and (min-width: 768px) {
