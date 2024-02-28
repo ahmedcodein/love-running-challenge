@@ -120,4 +120,18 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* main content */
+
+    main {
+        /* push main content of the main content to accomidate the hight changes
+        due to larger screen size */
+        margin-top: 75px;
+    }
 }
