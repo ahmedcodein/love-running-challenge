@@ -189,6 +189,18 @@ hr {
     color: #fafafa;
 }
 
+/* Gallery Page */
+
+#photo img {
+    width: 100%;
+    line-height: 1em;
+
+}
+
+#photo {
+    line-height: 0;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
