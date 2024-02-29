@@ -159,6 +159,32 @@ hr {
     justify-content: center;
 }
 
+/* Meetup Section */
+
+#times {
+    /* Add Dublin-city image to the div times */
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    /* Handle reponsivity without the media querries */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
+}
+
+/* Override the h3 color set earlier in the general style */
+#times h3 {
+    color: #fafafa;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
